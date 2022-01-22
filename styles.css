@@ -168,7 +168,8 @@ a:hover{
     text-decoration: none;
 }
 
-@media (max-width:640px){
+@media screen and (max-width:640px),
+       screen and (max-height:700px){
     * {
         overflow-y: visible;
         overflow-x: hidden;
@@ -186,23 +187,23 @@ a:hover{
         overflow-y: hidden;
         position: absolute;
         left: 27%;
-        top: 37%;
+        top: 40%;
     }
     .socials{
         overflow-y: hidden;
         position: absolute;
         left: 23%;
-        top: 45%;
+        top: 49%;
     }
     .about-me {
         position: absolute;
-        left: 15%;
-        top: 55%;
+        left: 10%;
+        top: 59%;
     }
     .projects {
         position: absolute;
-        left: 15%;
-        top: 98%;
+        left: 10%;
+        top: 118%;
     }
     .src-code{
         display: none;
