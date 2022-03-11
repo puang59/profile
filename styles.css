@@ -3,7 +3,7 @@
 
 body{
     font-family: monospace;
-    background-color: rgb(14, 14, 14);
+    background-color: rgba(14, 14, 14, 0.975);
     background-repeat: no-repeat;
     background-size: cover;
 }
