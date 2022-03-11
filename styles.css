@@ -8,18 +8,19 @@ body{
     background-size: cover;
 }
 .container {
-    margin: 50px auto;
+    margin: 40px auto;
     background-color: #2C2F33;
     color: #b3b8cd;
     border-radius: 5px;
     width: 560px;
     text-align: center;
-    box-shadow: 0 10px 20px -10px rgba(0,0,0,0.75);
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,0.8);
 }
 .cover-photo {
-    background-image: url("https://i.pinimg.com/564x/95/92/b7/9592b7b5df3a9dd06e2bb38c31b6505e.jpg");
+    background-image: url("cover.png");
     height: 160px;
     width: 100%;
+    background-size: cover;
     border-radius: 5px 5px 0 0;
 }
 .profile {
@@ -93,4 +94,13 @@ a:hover, a:active {
 }
 .highlight {
     color: cornflowerblue;
+}
+a.moa {
+    background-color: #262626ab;
+    padding: 4px 4px;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.moa:hover{
+    background-color: #484848;
 }
