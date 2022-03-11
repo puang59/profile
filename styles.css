@@ -72,9 +72,10 @@ h2 {
 .description {
     margin: 10px 0 0 0px;
     padding-bottom: 35px;
+    line-height: 15px;
 }
 
-a:link, a:visited {
+.prjl:link, .prjl:visited {
     background-color: #50505080;
     border-radius: 5px;
     color: white;
@@ -83,7 +84,7 @@ a:link, a:visited {
     text-decoration: none;
     display: inline-block;
 }
-a:hover, a:active {
+.prjl:hover, .prjl:active {
     background-color: rgb(24, 24, 24);
 }
 .notice {
@@ -95,11 +96,12 @@ a:hover, a:active {
 .highlight {
     color: cornflowerblue;
 }
-a.moa {
+.moa {
     background-color: #262626ab;
-    padding: 4px 4px;
+    padding: 2px 2px;
     text-decoration: none;
     color: cornflowerblue;
+    border-radius: 5px;
 }
 .moa:hover{
     background-color: #484848;
