@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    background-color: black;
+}
+#pfp {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #fff;
+}
+ul {
+    list-style-type: none;
+    color: rgb(125, 125, 125);
+}
+.pfp-section {
+    font-family: 'Poppins', sans-serif;
+}
+.pfp-section p{
+    color: white;
+    position: absolute;
+    left: 15%;
+    top: 63%;
+}
+#pfp-list {
+    position: absolute;
+    left: 15%;
+    top: 53%;
+}
+li{
+    margin: -5px 0;
+}
+.vl {
+    display: block;
+    border-left: 10px solid rgb(255, 255, 255);
+    height: 1000px;
+    position: absolute;
+    left: 40%;
+    margin-left: -3px;
+    top: 0;
+}
+.about-me {
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+span {
+    font-weight: bold;
+    color: rgb(203, 203, 203);
+}
+.projects {
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    font-family: 'Poppins', sans-serif;
+}
+.card {
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    background: rgb(45, 45, 45);
+    box-shadow: 0px 5px 10px 0 rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 1.5rem;
+    transition: 1s;
+}
+.card:hover{
+    transform:scale(0.9);
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:active{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 1px;
+}
+#prj-1{
+    font-family: 'Poppins', sans-serif;
+}
+.lang{
+    color: rgb(255, 0, 217);
+    list-style-type: disc;
+}
+.lang-2{
+    color: rgb(93, 93, 255);
+    list-style-type: disc;
+}
+#state {
+    color: rgb(126, 126, 126);
+}
+.src-code{
+    position: absolute;
+    left: 45%;
+    top: 93%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vh;
+    background-color: rgba(255, 255, 4, 0.831);
+    padding: 0.2rem;
+    border-radius: 5%;
+    transition: all .2s ease-in-out;
+}
+.src-code:hover{
+    box-shadow: 0 1px 40px rgba(255, 255, 4, 0.831);
+}
+.src-code a:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.src-code a:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.src-code a:active{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.src-code a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.socials{
+    position: absolute;
+    left: 14%;
+    top: 62%;
+}
+.socials ul {
+    list-style-type: none;
+}
+
+.socials ul li {
+    float: left;
+}
+.socials ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:640px),
+       screen and (max-height:600px){
+    * {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .vl {
+        display: none;
+    }
+    #pfp {
+        overflow-y: hidden;
+        position: absolute;
+        left: 27%;
+        top: 10%;
+    }
+    #pfp-list {
+        overflow-y: hidden;
+        position: absolute;
+        left: 27%;
+        top: 40%;
+    }
+    .socials{
+        overflow-y: hidden;
+        position: absolute;
+        left: 23%;
+        top: 49%;
+    }
+    .about-me {
+        position: absolute;
+        left: 10%;
+        top: 59%;
+    }
+    .projects {
+        position: absolute;
+        left: 10%;
+        top: 118%;
+    }
+    .src-code{
+        display: none;
+    }
+}
